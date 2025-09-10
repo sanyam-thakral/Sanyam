@@ -1,0 +1,127 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #c0c0aa; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: #fff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .artist-row {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+        .song-box {
+            border: 2px solid #ffffff;
+            border-radius: 12px;
+            padding: 16px;
+            background: #191414;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 180px;
+            box-shadow: 0 2px 8px rgba(29,185,84,0.07);
+            color: #fff;
+        }
+        .song-box img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border: 2px solid #fff3f3;
+        }
+        .song-box h2 {
+            margin: 4px 0 2px 0;
+            text-align: center;
+            color: #fff8f8;
+            font-size: 1.1em;
+        }
+        .song-box h3 {
+            margin: 2px 0 0 0;
+            text-align: center;
+            color: #fff4f4;
+            font-size: 1em;
+            font-weight: 400;
+        }
+        .artist-title {
+            font-size: 1.5em;
+            margin-bottom: 12px;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 0 2px 8px rgba(29,185,84,0.15);
+        }
+        .song-box a {
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .song-box a:focus, .song-box a:hover {
+            outline: none;
+            box-shadow: 0 0 0 2px #1DB954;
+        }
+    </style>
+</head>
+<body>
+    <!--Spotify widget-->
+    <h1>This is Homepage for spotify</h1>
+    <div class="artist-title">Karan Aujla Songs</div>
+    <div class="artist-row">
+        <div class="song-box">
+            <a href="https://open.spotify.com/track/1dlCoq7vdDnuAzo3DYPTY4">
+                <img src="/hq720.jpg" alt="Daytona">
+                <h2>Daytona</h2>
+                <h3>Karan Aujla</h3>
+            </a>
+        </div>
+        <div class="song-box">
+            <a href="https://open.spotify.com/track/1xofPJhZcfJCc66P1UAh28">
+                <img src="/hq720.jpg" alt="7.7 Magnitude">
+                <h2>7.7 Magnitude</h2>
+                <h3>Karan Aujla</h3>
+            </a>
+        </div>
+        <div class="song-box">
+            <a href="https://open.spotify.com/track/1Ae2O8GhTe5KiDrrurzm41">
+                <img src="/ab67616d0000b273786a26c64ff6b997a9552910.jpeg" alt="At Peace">
+                <h2>At Peace</h2>
+                <h3>Karan Aujla</h3>
+            </a>
+        </div>
+        <div class="song-box">
+            <a href="https://open.spotify.com/track/3h2mS2Bc726lO2HUJ1mthg">
+                <img src="/ab67616d0000b27328358d663102883979759474.jpeg" alt="Na Na Na ">
+                <h2>Na Na Na</h2>
+                <h3>Karan Aujla</h3>
+            </a>
+        </div>
+    </div>
+    <div class="artist-title">Amit Saini Rohtakiya Songs</div>
+    <div class="artist-row">
+        <div class="song-box">
+            <a href="https://open.spotify.com/album/6mlHNm2zJF8VDTTcXpS19x">
+                <img src="/images.jpeg" alt="Kaali gaadi">
+                <h2>Kaali Gaadi</h2>
+                <h3>Amit Saini Rohtakiya</h3>
+            </a>
+        </div>
+        <div class="song-box">
+            <a href="">
+                <img src="/ab67616d0000b273727c51712df0d86847780a59.jpeg" alt="Death">
+                <h2>Death</h2>
+                <h3>Amit Saini Rohtakiya</h3>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>
